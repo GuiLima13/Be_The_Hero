@@ -1,0 +1,27 @@
+//instalando a dependencia do Knex
+npm install knex --sabe
+
+//iniciando o knex no projeto
+npx knex init
+
+//Instando dependencias sqlite3
+npm install sqlite3
+
+//Comando para criar migrações dentro do banco
+npx knex migrate:make create_ongs
+
+//Comando para criar o migrate
+npx knex migrate:latest
+
+//Comando para listar todos os comandos do knex
+npx knex
+
+//Comando para desfazer sua ultima execução da migration
+npx knex migrate:rollback
+
+//Instalando o cors
+npm install cors
+
+//Instalando pacote de Icones e fontes no react
+npm install react-icons
+
