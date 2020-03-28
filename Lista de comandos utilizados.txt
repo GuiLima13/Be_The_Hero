@@ -1,5 +1,5 @@
-//instalando a dependencia do Knex
-npm install knex --sabe
+﻿//instalando a dependencia do Knex
+npm install knex --save
 
 //iniciando o knex no projeto
 npx knex init
